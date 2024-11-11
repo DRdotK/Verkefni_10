@@ -1,0 +1,45 @@
+.circle{
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 100%;
+    border-top:4px solid blue;
+    
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.circle_container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+button{
+    border: none;
+    background-color: darkblue;
+    max-height: 40px;
+    font-size: 20px;
+    font-style:italic;
+    color:blue;
+}
+.button{
+    transform: translateY(50%);
+   
+    padding: 10px;
+}
+#playback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#current {
+    color: aliceblue;
+}
+h3{
+    color: blue;
+}

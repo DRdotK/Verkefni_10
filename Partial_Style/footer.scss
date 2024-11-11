@@ -1,0 +1,19 @@
+
+footer{
+    transform: translateY(400px);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style: none;
+    font-size: 20px;
+    outline-style: dashed;
+    outline-color: blue;
+}
+
+#app{
+    display: grid;
+    align-content: center;
+    font-style: none;
+    
+}
